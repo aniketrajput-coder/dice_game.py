@@ -10,7 +10,7 @@ def play_game():
     score2 = 0
     
     for i in range(1, 4):
-        print("\n--- Round", i, "---")
+        print("--- Round", i, "---")
         
         input(player1 + " press Enter to roll dice...")
         dice1 = random.randint(1, 6)
@@ -23,7 +23,7 @@ def play_game():
 
 
     for i in range(1, 4):
-        print("\n--- Round", i, "---")
+        print("--- Round", i, "---")
         input(player2 + " press Enter to roll dice...")
         dice2 = random.randint(1, 6)
         print(player2, "got:", dice2)
